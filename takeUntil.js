@@ -6,7 +6,8 @@ const takeUntil = function(array, callback) {
     } else {
       outcome.push(element);
     }
-  } return outcome;
+  } 
+  return outcome;
 }
 
 const assertArraysEqual = function(arr1, arr2) {
@@ -26,7 +27,8 @@ const eqArrays = function(arr1, arr2) {
       } else {
         return false;
       } 
-    } return true;
+    } 
+    return true;
   }
 };
 
